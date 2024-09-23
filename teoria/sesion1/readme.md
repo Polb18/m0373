@@ -1,2 +1,2 @@
-#Sesion 1
--[x]Estructura básica html
+# Sesión 1
+-[x] Estructura básica html
