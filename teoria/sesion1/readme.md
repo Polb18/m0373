@@ -1,2 +1,11 @@
 # Sesión 1
--[x] Estructura básica html
+- [x] Estructura básica html
+- [x] h1 - h6
+- [x] p
+- [x] nav
+- [x] header
+
+
+
+## Herramientas
+- Configuración: Word Wrap
