@@ -12,60 +12,73 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li>Servicios
+                <li><a href="paginas/servicios.html">Servicios</a>
                     <ul>
                         <li><a href="paginas/ventas.html">Ventas</a></li>
                         <li><a href="paginas/reparacion.html">Reparacion</a></li>
                     </ul>
                 </li>
                 <li><a href="paginas/contacto.html">Contacto</a></li>
+                <li><a href="#listas">Enlace a sección listas</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/HTML#Elementos" target="blank">Enlace externo wikipedia HTML-Elementos</a></li>
             </ul>
         </nav>
         <hr>
     </header>
     <main>
         <h1>Título nivel 1</h1>
-        <h4>Titulo de nivel 4</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis omnis minima non, dolorem corrupti
-            ad reprehenderit atque ea veritatis, sunt consectetur quasi. Sit modi voluptatem nobis assumenda nam esse.
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatum fugit tempora, in tenetur
-            pariatur natus maiores odio, amet ipsum quibusdam consectetur, odit enim voluptate minus libero eius. Odit,
-            possimus.</p>
 
-        <img src="https://www.fpllefia.com/images/logo40web-.png" alt="Logo de fpllefia">
+        <section id="seccionPrincipial">
+            <h4>Titulo de nivel 4</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis omnis minima non, dolorem corrupti
+                ad reprehenderit atque ea veritatis, sunt consectetur quasi. Sit modi voluptatem nobis assumenda nam esse.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatum fugit tempora, in tenetur
+                pariatur natus maiores odio, amet ipsum quibusdam consectetur, odit enim voluptate minus libero eius. Odit,
+                possimus.</p>    
+        </section>
+
+        <section id="logos">
+            <div style="background-color: brown;">
+                <p>Logo de fpllefia</p>
+                <img src="https://www.fpllefia.com/images/logo40web-.png" alt="Logo de fpllefia">
+            </div>
+            <div>   
+                <p>logo html</p>
+                <img src="imagenes/logohtml.png" alt="logo de html">    
+            </div>
+        </section>
+       
+        <section id="listas">
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Primer elemento</li>
+                <li>Segundo elemento</li>
+                <li>Tercer elemento</li>
+            </ol>
     
-        <img src="imagenes/logohtml.png" alt="logo de html">
-
-        <h3>Lista ordenada</h3>
-        <ol>
-            <li>Primer elemento</li>
-            <li>Segundo elemento</li>
-            <li>Tercer elemento</li>
-        </ol>
-
-        <h3>Lista desordenada</h3>
-        <ul>
-            <li>Primer item</li>
-            <li>Segundo item</li>
-        </ul>
-
-        <h3>Lista animada</h3>
-
-        <ol>
-            <li>Item 1</li>
-            <li>Item 2
-                <ul>
-                    <li>Subitem 1</li>
-                    <li>subitem 2</li>
-                    <li>subitem 3</li>
-                </ul>
-            </li>
-            <li>Item 3</li>
-        </ol>
-
-        <h3>Menús con listas</h3>
-
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>Primer item</li>
+                <li>Segundo item</li>
+            </ul>
+    
+            <h3>Lista animada</h3>
+    
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2
+                    <ul>
+                        <li>Subitem 1</li>
+                        <li>subitem 2</li>
+                        <li>subitem 3</li>
+                    </ul>
+                </li>
+                <li>Item 3</li>
+            </ol>
+    
+        </section>
+       
     </main>
     <footer>Página diseñada por Pol Barrull</footer>
 </body>
