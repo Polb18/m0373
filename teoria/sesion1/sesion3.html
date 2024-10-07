@@ -7,26 +7,65 @@
     <title>Sesión 3</title>
     <style>
         /* Selector de etiqueta*/
-       p{
-        color: green;
-       }
+        p {
+            color: green;
+        }
 
-       /*Selector de id*/ 
-       #parrafo2{
-        background-color: rgb(255, 255, 0)
-        
-       }
+        /*Selector de id*/
+        #parrafo2 {
+            background-color: rgb(255, 255, 0) color(red)
+        }
+
+        /*Selector de classe*/
+        .alerta {
+            background-color: #0000ff color(white) margin: 50px
+        }
+
+        .bordeGordo {
+            border: 10px dotted rgba(255, 0, 100, 0.9);
+        }
+
+        h2,
+        h3 {
+            font-size: 50px;
+        }
+
+        .bordeRojo{
+            border: 5px solid red;
+            margin: 20px;  /*Margen*/
+            padding: 50px; /*Relleno*/
+        }
+        .bordeRosa{
+            border: 5px solid pink;
+        }
     </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <h1 style="color: red; background-color: aqua;">Sesión CSS</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ullam doloribus fuga aliquid assumenda tenetur
+    <h2>Títuo 2</h2>
+    <h3>Título 3</h3>
+    <p class="alerta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ullam doloribus fuga aliquid
+        assumenda tenetur
         vel in cum. Eveniet mollitia dicta temporibus voluptates quos sit alias sequi inventore voluptate quibusdam!</p>
 
-    <p id="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quam quisquam quod iure facilis quos voluptate
+    <p id="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quam quisquam quod iure facilis
+        quos voluptate
         labore aliquam. Fuga deleniti non suscipit, alias repellendus perferendis recusandae? Vitae, necessitatibus?
         Maiores, nostrum.</p>
+
+    <p class="alerta bordeGordo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo dicta sapiente, quasi
+        dolorum, inventore dolores eveniet omnis labore temporibus repellendus consequuntur, optio non autem consequatur
+        accusamus veniam placeat sequi.</p>
+
+    <div class="bordeRosa">
+        <div class="bordeRojo">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dignissimos hic minima odio
+                distinctio quam debitis adipisci vel rerum. Minus voluptate voluptates, debitis dolor ad animi velit
+                cumque non ipsam.</p>
+        </div>
+    </div>
 </body>
 
 </html>
